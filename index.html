@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Family Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <!-- FontAwesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Hero Section Start -->
+    <header class="header">
+        <nav>
+            <a href="" src="" ><img src="./images/logo.png" alt="Logo" class="logo"></a>
+            <div class="nav-links">
+                <i class="fa-solid fa-bars" onclick="show()"></i>
+                <ul id="slide">
+                    <i class="fa-solid fa-xmark" onclick="hide()"></i> 
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+
+        </nav>
+        <div class="hero-text">
+            <h1>World's Best Coffee</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, aspernatur.</p>
+            <a href="">Visit Us For Taste</a>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+
+    <!-- About Section Start-->
+    <section class="about-section">
+        <div class="about-image">
+           
+        </div>
+
+        <div class="about-text">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, ipsa quaerat? Magni reiciendis recusandae sit repudiandae. Fugiat debitis consequatur aliquid aspernatur cum ratione nesciunt et, at quo quidem eaque magni?</p>
+            <a href="" class="btn">Explore</a>
+        </div>
+
+    </section>
+    <!-- About Section End-->
+     
+
+    <!-- <section class="service-section">
+        <h1>What We Do</h1>
+        <div class="service-img-container">
+            <div class="imgs-card">
+                <img src="https://unsplash.com/photos/white-ceramic-teacup-with-coffee-beans-lsmu0rUhUOk" alt="img 1">
+            </div>
+            <div class="imgs-card">
+                <img src="https://unsplash.com/photos/a-coffee-maker-is-making-a-cup-of-coffee-A_90G6Ta56A" alt="img 2">
+            </div>
+            <div class="imgs-card">
+                <img src="https://images.unsplash.com/photo-1551462577-9aaf3ff5d927?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img 3">
+            </div>
+            <div class="imgs-card">
+                <img src="https://plus.unsplash.com/premium_photo-1663932464682-a8ffd67c7b85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img 4">
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Service Section End -->
+
+    <!-- Contact Section Start -->
+     <section class="contact-section">
+        <div class="contact-text">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="contact-form">
+            <form action="" class="form-css">
+                <label for="">First Name</label> <br>
+                <input type="text" name="" id=""> <br>
+                <label for="">Last Name</label> <br>
+                <input type="text" name="" id=""> <br>
+                <label for="">Email</label> <br>
+                <input type="text" name="" id=""> <br>
+                <label for="">Phone</label> <br>
+                <input type="text" name="" id=""> <br>
+                <div class="butt"><button>Submit</button></div>
+                
+            </form>
+        </div>
+       
+     </section>
+    
+
+    <!-- Contact Section End -->
+
+    <!-- Fotter Section -->
+     <footer class="footer">
+        <div class="social-links">
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-snapchat"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <p class="copyright">Coffee Shop ©2024</p>
+     </footer>
+
+   
+
+
+
+
+    <script>
+        const store=document.getElementById('slide');
+        function show(){
+            store.style.right="0"
+        }
+
+        function hide(){
+            store.style.right="-200px"
+        }
+
+    </script>
+</body>
+</html>
