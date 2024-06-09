@@ -348,7 +348,7 @@ form{
         grid-template-columns: 1fr;
     }
     .contact-text{
-        height:100vh;
+        height:50vh;
     }
     .contact-section h1{
         font-size: 30px;
