@@ -236,6 +236,25 @@
         font-size: 15px;
         line-height:35px;
         letter-spacing:2px;
+    .footer {
+        background-color: #6f4827;
+        margin-top:50px;
+        padding: 20px;
+        text-align: center;
+    }
+    .footer .social-links {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .footer .social-links a {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+        line-height: 33px;
+    }
+    .footer .copyright {
+        font-size: 16px;
+    }
 
     }
 }
